@@ -1,0 +1,15 @@
+{
+  "name": "less-autoprefixer-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lessc style.less --autoprefix=\"last 2 versions\""
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "less-plugin-autoprefix": "^1.4.2"
+  }
+}
